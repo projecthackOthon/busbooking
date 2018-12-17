@@ -7,7 +7,7 @@
 ?>
 <html>
 <head>
-<title>Parivahan || Track'N'Go </title>
+<title>Pravasan || Track'N'Go </title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 <body>
     <div class="loginbox">
@@ -15,9 +15,9 @@
         <h1>Login Here</h1>
         <form action="homePage.php" method="post">
             <p>Username</p>
-          <input type="text" name="u_name" placeholder="Enter Username" style="font-style:italic" oninvalid="setCustomValidity('Enter Valid Username, eg. [A-Z,a-z,_,[0-9]')" required>
+          <input type="text" name="u_name" placeholder="Enter Username" style="font-style:italic" pattern="^[a-z0-9._]{1,}$" title="Allowed Characters (a-z, A-Z, _ )" required >
             <p>Password</p>
-            <input type="password" name="pwd" placeholder="Enter Password" style="font-style:italic" required oninvalid="setCustomValidity('Enter Valid Password')">
+            <input type="password" name="pwd" placeholder="Enter Password" style="font-style:italic" pattern="^.{6,}$" title="6 Characters or more" required >
         <div>
             <center>
                 <select name="user_type">
