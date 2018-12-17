@@ -5,11 +5,12 @@
 		$depo_id = $_POST['depo_Id'];
 		$depo_name = $_POST['depo_name'];
 		$password = $_POST['pwd'];
-		$sql = "INSERT INTO reg_user VALUES('$depo_id','$depo_name','$password')";
+		$sql = "INSERT INTO reg_user(depo_id,depo_name,depo_pass) VALUES('$depo_id','$depo_name','$password')";
 		$query = mysqli_query($conn,$sql);
 		if($query)
 		{
 			echo "data in";
+			header('Location:index.php');
 		}
 		else
 		{
@@ -29,7 +30,7 @@
   	<h2>Register</h2>
   </div>
 	
-  <form method="post" action="index.php">
+  <form method="post" action="<?php $_PHP_SELF ?>">
   	
   	<div class="input-group">
   	  <label>Depo Id</label>
