@@ -1,10 +1,6 @@
-<?php
-    if(isset($_POST['login']))
-    {
-        header('Location:/homePage.php');
-    }
+<?php include('config.php') ?>
 
-?>
+
 <html>
 <head>
 <title>Pravasan || Track'N'Go </title>
@@ -13,7 +9,7 @@
     <div class="loginbox">
     <img src="css/avatar.png" class="avatar">
         <h1>Login Here</h1>
-        <form action="homePage.php" method="post">
+        <form action="validate.php" method="post">
             <p>Username</p>
           <input type="text" name="u_name" placeholder="Enter Username" style="font-style:italic" pattern="^[a-z0-9._]{1,}$" title="Allowed Characters (a-z, A-Z, _ , 0-9)" required >
             <p>Password</p>
