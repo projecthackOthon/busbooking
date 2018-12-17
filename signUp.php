@@ -22,7 +22,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration || Parivahan </title>
+  <title>Registration || Pravasan </title>
   <link rel="stylesheet" type="text/css" href="css/reg_style.css">
 </head>
 <body>
