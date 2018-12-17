@@ -30,7 +30,7 @@
   	<h2>Register</h2>
   </div>
 	
-  <form method="post" action="validate.php">
+  <form method="post" action="<?php $_PHP_SELF ?>">
   	
   	<div class="input-group">
   	  <label>Depo Id</label>
