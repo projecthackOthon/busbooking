@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(pic1.jpg);
-    background-size: cover;
-    background-position: center;
+    background: url(pic.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     font-family: sans-serif;
+    height: 100%; 
 }
 
 .loginbox{
@@ -98,61 +100,4 @@ h1{
 :-ms-input-placeholder{
 	font-style: italic;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

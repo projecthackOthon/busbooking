@@ -14,7 +14,7 @@
 		}
 		else
 		{
-			echo "not in";
+			echo "<h3>Error in Registration</h3>";
 		}
 
 	}
@@ -22,8 +22,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Registration system PHP and MySQL</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Registration || Parivahan </title>
+  <link rel="stylesheet" type="text/css" href="css/reg_style.css">
 </head>
 <body>
   <div class="header">
