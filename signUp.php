@@ -4,7 +4,7 @@
 	{
 		$depo_id = $_POST['depo_Id'];
 		$depo_name = $_POST['depo_name'];
-		$password = md5($_POST['pwd']);
+		$password = $_POST['pwd'];
 		$sql = "INSERT INTO reg_user(depo_id,depo_name,depo_pass) VALUES('$depo_id','$depo_name','$password')";
 		$query = mysqli_query($conn,$sql);
 		if($query)
