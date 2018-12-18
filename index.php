@@ -8,7 +8,7 @@
     <img src="css/avatar.png" class="avatar">
         <h1>Login Here</h1>
         <form action="validate.php" method="post">
-            <p>Username</p>
+           <font size="2px"> <p>Username</p>
           <input type="text" name="u_name" placeholder="Enter Username" style="font-style:italic" pattern="^[a-z0-9._]{1,}$" title="Allowed Characters (a-z, A-Z, _ , 0-9)" required >
             <p>Password</p>
             <input type="password" name="pwd" placeholder="Enter Password" style="font-style:italic" pattern="^.{6,}$" title="6 Characters or more" required >
