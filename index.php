@@ -1,6 +1,4 @@
 <?php include('config.php') ?>
-
-
 <html>
 <head>
 <title>Pravasan || Track'N'Go </title>
