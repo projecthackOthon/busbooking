@@ -34,7 +34,7 @@
 				                               <!------logged end---------------->
                </div>
             </div>
-            <div class="shadow"><img src="images/shadow.png"></div>
+            <div class="shadow"><img src="assets/images/shadow.png"></div>
          </div>
 <div class="container" ng-controller="search">
             <div class="row" style="min-height:400px;margin-top:120px;">
@@ -73,7 +73,7 @@
                </div>
                <div class="col-md-6">
                   <div class="tb_bus">
-                     <img src="images/bus.png">
+                     <img src="assets/images/bus.png">
                   </div>
                </div>
             </div>
