@@ -246,12 +246,12 @@ button.ui-button::-moz-focus-inner {
 }
 
 .ui-datepicker .ui-datepicker-prev {
-	background-image: url(../images/back.png);background-repeat: no-repeat;background-position: right;background-size: 7px;
+	background-image: url(assets/images/back.png);background-repeat: no-repeat;background-position: right;background-size: 7px;
 	left: 19px;
 }
 .ui-datepicker .ui-datepicker-next {
 	right: 40px;
-		background-image: url(../images/next.png);background-repeat: no-repeat;background-position: right;background-size: 7px;
+		background-image: url(assets/images/next.png);background-repeat: no-repeat;background-position: right;background-size: 7px;
 }
 
 .ui-datepicker .ui-datepicker-title {
