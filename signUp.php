@@ -28,16 +28,19 @@
   <img src="css/avatar.png" class="avatar">
   	<h1>Register</h1>
     <form method="post" action="<?php $_PHP_SELF ?>">
-  	 <font size="2px"><p>Depo Id</p>
-  	  <input type="text" name="depo_Id" placeholder="Enter Depo_Id" style="font-style:italic" required />
-  	  <p>Depo Name</p>
-  	  <input type="text" name="depo_name" placeholder="Enter Depo_Name" style="font-style:italic" required />
+  	 <font size="2px"><p>Name</p>
+  	  <input type="text" name="username" placeholder="Enter Name" style="font-size:15px" required />
+  	  <p>Email</p>
+      <input type="text" name="email" placeholder="Enter Email Address" style="font-size:15px" required />
+      <p>Phone Number</p>
+  	  <input type="text" name="ph_no" placeholder="Enter Phone Number" style="font-size:15px" required />
   	  <p>Password</p>
-  	  <input type="password" name="pwd" placeholder="Enter Password" style="font-style:italic" required /> 
+  	  <input type="password" name="pwd" placeholder="Enter Password" style="font-size:15px" required /> 
   	  <input type="submit" class="btn" name="reg_user" value="Register" />
   	<p>
   		Already a member? <a href="login.php">Sign in</a>
   	</p>
+    <br/><center><a href="index.php">Home</a>
   </div>
   </form>
 </body>

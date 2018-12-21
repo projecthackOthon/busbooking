@@ -11,7 +11,7 @@ body{
 
 .loginbox{
     width: 320px;
-    height: 490px;
+    height: 550px;
     background: #f7f7f7;
     color: #222;
     top: 50%;
@@ -27,7 +27,7 @@ body{
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: -50px;
+    top: -40px;
     left: calc(50% - 50px);
 }
 
@@ -55,18 +55,18 @@ h1{
     border-bottom: 1px solid #000;
     background: transparent;
     outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
+    height: 35px;
+    color: #000;
+    font-size: 15px;
 }
 .loginbox input[type="submit"]
 {
     border: none;
     outline: none;
-    height: 40px;
+    height: 38px;
     background: #e24648;
     color: #fff;
-    font-size: 18px;
+    font-size: 17px;
     border-radius: 20px;
 }
 .loginbox input[type="submit"]:hover
@@ -81,23 +81,13 @@ h1{
     line-height: 20px;
     color: #818181;
 }
-
+.placeholder input[type="text"]
+{
+    font-size: 5%;
+}
 .loginbox a:hover
 {
     color: #ffc107;
 }
 
-::-webkit-input-placeholder{
-	font-style:italic;
-}
-
-:-moz-placeholder{
-	font-style:italic;
-}
-::-moz-placeholder{
-	font-style:italic;
-}
-:-ms-input-placeholder{
-	font-style: italic;
-}
 
