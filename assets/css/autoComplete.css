@@ -24,7 +24,7 @@
 
 /*when hovering an item:*/
 .autocomplete-items div:hover {
-  background-color: #e24648; 
+  background-color: #ea7e7b;  /*#e24648  same as our color scheme but dark(fonts are not that visible)  */
 }
 
 /*when navigating through the items using the arrow keys:*/
