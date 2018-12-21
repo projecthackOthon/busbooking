@@ -133,10 +133,10 @@
                               <div class="tb_route_list">
                                  <ul>
                                     <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana</a></li>
-                                    <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana </a></li>
-                                    <li><a href="#" onclick="settext('Junagadh','Surat')">Junagadh to Surat</a></li>
-                                    <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a> </li>
+                                    <li><a href="#" onclick="settext('Junagadh','Surat')"> Junagadh to Surat</a></li>
                                     <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar</a></li>
+                                    <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a> </li>
+                                    <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana</a></li>
                                  </ul>
                               </div>
                            </div>
@@ -148,10 +148,10 @@
                               <div class="tb_route_list">
                                  <ul>
                                     <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a></li>
-                                    <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar </a></li>
+                                    <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana</a></li>
                                     <li><a href="#" onclick="settext('Junagadh','Surat')">Junagadh to Surat</a></li>
-                                    <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana </a> </li>
                                     <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana</a></li>
+                                    <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar</a></li>
                                  </ul>
                               </div>
                            </div>
@@ -163,7 +163,7 @@
                               <div class="tb_route_list">
                                  <ul>
                                     <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar</a></li>
-                                    <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana</a></li>
+                                    <li><a href="#" onclick="settext('Mehsana','Vadodara')">Mehsana to Vadodara</a></li>
                                     <li><a href="#" onclick="settext('Junagadh','Surat')">Junagadh to Surat</a></li>
                                     <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana</a></li>
                                     <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a></li>
@@ -175,7 +175,6 @@
                   </div>
                </div>
             </div>
-            
             <hr class="border2">
             </hr>
          </div>

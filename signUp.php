@@ -36,7 +36,7 @@
   	  <input type="password" name="pwd" placeholder="Enter Password" style="font-style:italic" required /> 
   	  <input type="submit" class="btn" name="reg_user" value="Register" />
   	<p>
-  		Already a member? <a href="index.php">Sign in</a>
+  		Already a member? <a href="login.php">Sign in</a>
   	</p>
   </div>
   </form>
