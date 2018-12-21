@@ -10,6 +10,7 @@
       	<script src="assets/js/jquery.js"></script> 
       	<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
    		<script src="assets/js/jquery.raty.js"></script>
+         <script src="assets/js/quickLinks.js"></script>
    		
    		<link href="assets/css/autoComplete.css" rel="stylesheet">
      </head>
@@ -50,6 +51,7 @@
                      <div class="searchRow clearfix">
                         <div class="LB">
                            <label class="inputLabel">From</label>
+                           
                            <input id="myInput"  class="XXinput searching" placeholder="Enter a city" type="text"  data-id="board_point"  data-parsley-error-message="Please select a source city" name="myCountry" tabindex="1" required/>
                            <div class="errorMessageFixed"> </div>
                         </div>
@@ -130,25 +132,26 @@
                               <h4 class="tb_head">Top Bus Routers</h4>
                               <div class="tb_route_list">
                                  <ul>
-                                    <li><a href="#">Hyderabad to Bangalore</a></li>
-                                    <li><a href="#">Pune to Bangalore </a></li>
-                                    <li><a href="#">Hyderabad to Chennai</a></li>
-                                    <li><a href="#">Coimbatore to Bangalore </a> </li>
-                                    <li><a href="#">Chennai to Madurai</a></li>
+                                    <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana</a></li>
+                                    <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana </a></li>
+                                    <li><a href="#" onclick="settext('Junagadh','Surat')">Junagadh to Surat</a></li>
+                                    <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a> </li>
+                                    <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar</a></li>
                                  </ul>
                               </div>
                            </div>
                         </div>
+                        
                         <div class="col-md-4  col-sm-12 col-xs-12">
                            <div class="footer_main">
                               <h4 class="tb_head">Top Cities</h4>
                               <div class="tb_route_list">
                                  <ul>
-                                    <li><a href="#">Hyderabad to Bangalore</a></li>
-                                    <li><a href="#">Pune to Bangalore </a></li>
-                                    <li><a href="#">Hyderabad to Chennai</a></li>
-                                    <li><a href="#">Coimbatore to Bangalore </a> </li>
-                                    <li><a href="#">Chennai to Madurai</a></li>
+                                    <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a></li>
+                                    <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar </a></li>
+                                    <li><a href="#" onclick="settext('Junagadh','Surat')">Junagadh to Surat</a></li>
+                                    <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana </a> </li>
+                                    <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana</a></li>
                                  </ul>
                               </div>
                            </div>
@@ -159,14 +162,11 @@
                               <h4 class="tb_head">Top Bus Operators</h4>
                               <div class="tb_route_list">
                                  <ul>
-                                    <li><a href="#">Hyderabad to Bangalore</a></li>
-                                    <li><a href="#">Pune to Bangalore</a></li>
-                                    <li><a href="#">Hyderabad to Chennai</a></li>
-                                    <li><a href="#">Coimbathroe to Bangalore</a></li>
-                                    <li>
-                                       <a href="#">
-                                          Chennai to Madurai
-                                    </li>
+                                    <li><a href="#" onclick="settext('Vadodara','Bhavnagar')">Vadodara to Bhavnagar</a></li>
+                                    <li><a href="#" onclick="settext('Rajkot','Mehsana')">Rajkot to Mehsana</a></li>
+                                    <li><a href="#" onclick="settext('Junagadh','Surat')">Junagadh to Surat</a></li>
+                                    <li><a href="#" onclick="settext('Surat','Mehsana')">Surat to Mehsana</a></li>
+                                    <li><a href="#" onclick="settext('Ahmedabad','Surat')">Ahmedabad to Surat</a></li>
                                  </ul>
                               </div>
                            </div>
@@ -175,6 +175,7 @@
                   </div>
                </div>
             </div>
+            
             <hr class="border2">
             </hr>
          </div>
