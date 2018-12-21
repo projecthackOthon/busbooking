@@ -44,19 +44,19 @@
 <div class="container" ng-controller="search">
             <div class="row" style="min-height:400px;margin-top:120px;">
                <div class="col-md-6">
-            <form id="myForm" method="post" data-parsley-validate="" autocomplete="off">
+            <form id="myForm" method="post" data-parsley-validate="" autocomplete="off" >
                   <section id="Search" class="LB XXCN  P20">
                      <h1 class="bookTic XCN TextSemiBold" >Online Bus Tickets Booking with Zero Booking Fees</h1>
                      <div class="searchRow clearfix">
                         <div class="LB">
                            <label class="inputLabel">From</label>
-                           <input id="myInput"  class=" XXinput searching" placeholder="Enter a city" type="text"  data-id="board_point"  data-parsley-error-message="Please select a source city" name="myCountry" tabindex="1" required/>
+                           <input id="myInput"  class="XXinput searching" placeholder="Enter a city" type="text"  data-id="board_point"  data-parsley-error-message="Please select a source city" name="myCountry" tabindex="1" required/>
                            <div class="errorMessageFixed"> </div>
                         </div>
                         <span class="switchButton" id="switchButton"></span>
                         <div class="searchRight NoPaddingRight ">
                            <label class="inputLabel">To</label>
-                           <input id="myInp" class="XXinput searching " placeholder="Enter a city" type="text" tabindex="2" data-id="drop_point"   data-parsley-error-message="Please select a destination city" name="myCountry" required />
+                           <input id="myInp" class="XXinput searching" placeholder="Enter a city" type="text" tabindex="2" data-id="drop_point"   data-parsley-error-message="Please select a destination city" name="myCountry" required />
                            <div class="errorMessageFixed"> </div>
                         </div>
                      </div>
